@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1891078D22649B0D00FC6650 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891078B22649B0D00FC6650 /* MoreTableViewController.swift */; };
+		1891079222649D7800FC6650 /* AcknowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891079122649D7800FC6650 /* AcknowViewController.swift */; };
+		1891079422649FDF00FC6650 /* Pods-TravelNote-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 1891079322649FDE00FC6650 /* Pods-TravelNote-acknowledgements.markdown */; };
+		1891079822656E7900FC6650 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891079722656E7900FC6650 /* AboutViewController.swift */; };
+		18AB7003225EF47800977833 /* SetupJpush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB7002225EF47800977833 /* SetupJpush.swift */; };
+		3C444FBC1ED9653D001C5DE8 /* CellCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FAB1ED9653D001C5DE8 /* CellCase.swift */; };
+		3C444FBD1ED9653D001C5DE8 /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FAC1ED9653D001C5DE8 /* DateHandler.swift */; };
+		3C444FBE1ED9653D001C5DE8 /* ErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FAD1ED9653D001C5DE8 /* ErrorEnum.swift */; };
+		3C444FBF1ED9653D001C5DE8 /* FirebaseErrorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FAE1ED9653D001C5DE8 /* FirebaseErrorHandle.swift */; };
+		3C444FC01ED9653D001C5DE8 /* GoogleDirectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FAF1ED9653D001C5DE8 /* GoogleDirectionManager.swift */; };
+		3C444FC11ED9653D001C5DE8 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB01ED9653D001C5DE8 /* Journey.swift */; };
+		3C444FC21ED9653D001C5DE8 /* JourneyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB11ED9653D001C5DE8 /* JourneyDataModel.swift */; };
+		3C444FC31ED9653D001C5DE8 /* JourneyNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB21ED9653D001C5DE8 /* JourneyNetworkHandler.swift */; };
+		3C444FC41ED9653D001C5DE8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB31ED9653D001C5DE8 /* Location.swift */; };
+		3C444FC51ED9653D001C5DE8 /* LocationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB41ED9653D001C5DE8 /* LocationDataModel.swift */; };
+		3C444FC61ED9653D001C5DE8 /* LocationNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB51ED9653D001C5DE8 /* LocationNetworkHandler.swift */; };
+		3C444FC71ED9653D001C5DE8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB61ED9653D001C5DE8 /* Reachability.swift */; };
+		3C444FC81ED9653D001C5DE8 /* StringEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB71ED9653D001C5DE8 /* StringEnum.swift */; };
+		3C444FC91ED9653D001C5DE8 /* TravelNoteErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB81ED9653D001C5DE8 /* TravelNoteErrorHandler.swift */; };
+		3C444FCA1ED9653D001C5DE8 /* TravelNoteNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FB91ED9653D001C5DE8 /* TravelNoteNetworkHandler.swift */; };
+		3C444FCB1ED9653D001C5DE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FBA1ED9653D001C5DE8 /* User.swift */; };
+		3C444FCC1ED9653D001C5DE8 /* UserLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FBB1ED9653D001C5DE8 /* UserLocationManager.swift */; };
+		3C444FDC1ED9654F001C5DE8 /* AddJourneyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FCD1ED9654F001C5DE8 /* AddJourneyTextField.swift */; };
+		3C444FDD1ED9654F001C5DE8 /* CityPictureSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FCE1ED9654F001C5DE8 /* CityPictureSliderView.swift */; };
+		3C444FDE1ED9654F001C5DE8 /* DaySelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FCF1ED9654F001C5DE8 /* DaySelectorCollectionViewCell.swift */; };
+		3C444FDF1ED9654F001C5DE8 /* JourneyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD01ED9654F001C5DE8 /* JourneyNavigationView.swift */; };
+		3C444FE11ED9654F001C5DE8 /* JourneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD21ED9654F001C5DE8 /* JourneyTableViewCell.swift */; };
+		3C444FE21ED9654F001C5DE8 /* LocationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD31ED9654F001C5DE8 /* LocationTableView.swift */; };
+		3C444FE31ED9654F001C5DE8 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD41ED9654F001C5DE8 /* LocationTableViewCell.swift */; };
+		3C444FE41ED9654F001C5DE8 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C444FD51ED9654F001C5DE8 /* LocationTableViewCell.xib */; };
+		3C444FE51ED9654F001C5DE8 /* MapViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD61ED9654F001C5DE8 /* MapViewButton.swift */; };
+		3C444FE61ED9654F001C5DE8 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD71ED9654F001C5DE8 /* SearchTableViewCell.swift */; };
+		3C444FE71ED9654F001C5DE8 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C444FD81ED9654F001C5DE8 /* SearchTableViewCell.xib */; };
+		3C444FE81ED9654F001C5DE8 /* SingleLocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FD91ED9654F001C5DE8 /* SingleLocationMapView.swift */; };
+		3C444FE91ED9654F001C5DE8 /* TravelNoteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FDA1ED9654F001C5DE8 /* TravelNoteMapView.swift */; };
+		3C444FEA1ED9654F001C5DE8 /* TravelNoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FDB1ED9654F001C5DE8 /* TravelNoteTableView.swift */; };
+		3C444FF81ED9655F001C5DE8 /* AddJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FEB1ED9655F001C5DE8 /* AddJourneyViewController.swift */; };
+		3C444FF91ED9655F001C5DE8 /* CityPictureSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FEC1ED9655F001C5DE8 /* CityPictureSliderViewController.swift */; };
+		3C444FFA1ED9655F001C5DE8 /* DaySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FED1ED9655F001C5DE8 /* DaySelectorViewController.swift */; };
+		3C444FFB1ED9655F001C5DE8 /* JourneyDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FEE1ED9655F001C5DE8 /* JourneyDataViewController.swift */; };
+		3C444FFC1ED9655F001C5DE8 /* JourneyListNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FEF1ED9655F001C5DE8 /* JourneyListNavigationController.swift */; };
+		3C444FFD1ED9655F001C5DE8 /* JourneyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF01ED9655F001C5DE8 /* JourneyListViewController.swift */; };
+		3C444FFE1ED9655F001C5DE8 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF11ED9655F001C5DE8 /* LaunchViewController.swift */; };
+		3C4450001ED9655F001C5DE8 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF31ED9655F001C5DE8 /* LocationTableViewController.swift */; };
+		3C4450011ED9655F001C5DE8 /* MainLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF41ED9655F001C5DE8 /* MainLocationViewController.swift */; };
+		3C4450021ED9655F001C5DE8 /* MutipleLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF51ED9655F001C5DE8 /* MutipleLocationsViewController.swift */; };
+		3C4450031ED9655F001C5DE8 /* ReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF61ED9655F001C5DE8 /* ReachabilityViewController.swift */; };
+		3C4450041ED9655F001C5DE8 /* SingleLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444FF71ED9655F001C5DE8 /* SingleLocationViewController.swift */; };
+		3C4450071ED96591001C5DE8 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4450061ED96591001C5DE8 /* UIKit+Extension.swift */; };
+		3C75D8C81EEEB1620041437A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75D8C71EEEB1620041437A /* LoginViewController.swift */; };
+		3C75D8CA1EEEB17E0041437A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75D8C91EEEB17E0041437A /* LoginView.swift */; };
+		3CDB06DD1EDD2DBF000C0F30 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB06DC1EDD2DBF000C0F30 /* ActivityIndicatorViewController.swift */; };
+		A0AA79BE1E81181D00AF86A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA79BD1E81181D00AF86A4 /* AppDelegate.swift */; };
+		A0AA79C51E81181D00AF86A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0AA79C41E81181D00AF86A4 /* Assets.xcassets */; };
+		A0AA79C81E81181D00AF86A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0AA79C61E81181D00AF86A4 /* LaunchScreen.storyboard */; };
+		A0EEFCA41E825E6F00ACFCC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0EEFCA31E825E6F00ACFCC4 /* GoogleService-Info.plist */; };
+		B3EBF540315499EAD3BFFB61 /* Pods_TravelNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4911A1D4F733E61C31924550 /* Pods_TravelNote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0474EFF98B99D1147A0D759C /* Pods-TravelNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelNote/Pods-TravelNote.debug.xcconfig"; sourceTree = "<group>"; };
+		1891078B22649B0D00FC6650 /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		1891079122649D7800FC6650 /* AcknowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowViewController.swift; sourceTree = "<group>"; };
+		1891079322649FDE00FC6650 /* Pods-TravelNote-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "Pods-TravelNote-acknowledgements.markdown"; path = "Pods/Target Support Files/Pods-TravelNote/Pods-TravelNote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1891079722656E7900FC6650 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		18AB7002225EF47800977833 /* SetupJpush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupJpush.swift; sourceTree = "<group>"; };
+		18AB700B225F343D00977833 /* TravelNote-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelNote-Bridging-Header.h"; sourceTree = "<group>"; };
+		18EE23CC2266B06400D8CEEF /* ProjectConfuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectConfuse.h; sourceTree = "<group>"; };
+		3C444FAB1ED9653D001C5DE8 /* CellCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellCase.swift; path = TravelNote/Model/CellCase.swift; sourceTree = "<group>"; };
+		3C444FAC1ED9653D001C5DE8 /* DateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateHandler.swift; path = TravelNote/Model/DateHandler.swift; sourceTree = "<group>"; };
+		3C444FAD1ED9653D001C5DE8 /* ErrorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorEnum.swift; path = TravelNote/Model/ErrorEnum.swift; sourceTree = "<group>"; };
+		3C444FAE1ED9653D001C5DE8 /* FirebaseErrorHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseErrorHandle.swift; path = TravelNote/Model/FirebaseErrorHandle.swift; sourceTree = "<group>"; };
+		3C444FAF1ED9653D001C5DE8 /* GoogleDirectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleDirectionManager.swift; path = TravelNote/Model/GoogleDirectionManager.swift; sourceTree = "<group>"; };
+		3C444FB01ED9653D001C5DE8 /* Journey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Journey.swift; path = TravelNote/Model/Journey.swift; sourceTree = "<group>"; };
+		3C444FB11ED9653D001C5DE8 /* JourneyDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyDataModel.swift; path = TravelNote/Model/JourneyDataModel.swift; sourceTree = "<group>"; };
+		3C444FB21ED9653D001C5DE8 /* JourneyNetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyNetworkHandler.swift; path = TravelNote/Model/JourneyNetworkHandler.swift; sourceTree = "<group>"; };
+		3C444FB31ED9653D001C5DE8 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = TravelNote/Model/Location.swift; sourceTree = "<group>"; };
+		3C444FB41ED9653D001C5DE8 /* LocationDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationDataModel.swift; path = TravelNote/Model/LocationDataModel.swift; sourceTree = "<group>"; };
+		3C444FB51ED9653D001C5DE8 /* LocationNetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationNetworkHandler.swift; path = TravelNote/Model/LocationNetworkHandler.swift; sourceTree = "<group>"; };
+		3C444FB61ED9653D001C5DE8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = TravelNote/Model/Reachability.swift; sourceTree = "<group>"; };
+		3C444FB71ED9653D001C5DE8 /* StringEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringEnum.swift; path = TravelNote/Model/StringEnum.swift; sourceTree = "<group>"; };
+		3C444FB81ED9653D001C5DE8 /* TravelNoteErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelNoteErrorHandler.swift; path = TravelNote/Model/TravelNoteErrorHandler.swift; sourceTree = "<group>"; };
+		3C444FB91ED9653D001C5DE8 /* TravelNoteNetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelNoteNetworkHandler.swift; path = TravelNote/Model/TravelNoteNetworkHandler.swift; sourceTree = "<group>"; };
+		3C444FBA1ED9653D001C5DE8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = TravelNote/Model/User.swift; sourceTree = "<group>"; };
+		3C444FBB1ED9653D001C5DE8 /* UserLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserLocationManager.swift; path = TravelNote/Model/UserLocationManager.swift; sourceTree = "<group>"; };
+		3C444FCD1ED9654F001C5DE8 /* AddJourneyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddJourneyTextField.swift; path = TravelNote/View/AddJourneyTextField.swift; sourceTree = "<group>"; };
+		3C444FCE1ED9654F001C5DE8 /* CityPictureSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityPictureSliderView.swift; path = TravelNote/View/CityPictureSliderView.swift; sourceTree = "<group>"; };
+		3C444FCF1ED9654F001C5DE8 /* DaySelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DaySelectorCollectionViewCell.swift; path = TravelNote/View/DaySelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C444FD01ED9654F001C5DE8 /* JourneyNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyNavigationView.swift; path = TravelNote/View/JourneyNavigationView.swift; sourceTree = "<group>"; };
+		3C444FD21ED9654F001C5DE8 /* JourneyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyTableViewCell.swift; path = TravelNote/View/JourneyTableViewCell.swift; sourceTree = "<group>"; };
+		3C444FD31ED9654F001C5DE8 /* LocationTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationTableView.swift; path = TravelNote/View/LocationTableView.swift; sourceTree = "<group>"; };
+		3C444FD41ED9654F001C5DE8 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationTableViewCell.swift; path = TravelNote/View/LocationTableViewCell.swift; sourceTree = "<group>"; };
+		3C444FD51ED9654F001C5DE8 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LocationTableViewCell.xib; path = TravelNote/View/LocationTableViewCell.xib; sourceTree = "<group>"; };
+		3C444FD61ED9654F001C5DE8 /* MapViewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewButton.swift; path = TravelNote/View/MapViewButton.swift; sourceTree = "<group>"; };
+		3C444FD71ED9654F001C5DE8 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTableViewCell.swift; path = TravelNote/View/SearchTableViewCell.swift; sourceTree = "<group>"; };
+		3C444FD81ED9654F001C5DE8 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchTableViewCell.xib; path = TravelNote/View/SearchTableViewCell.xib; sourceTree = "<group>"; };
+		3C444FD91ED9654F001C5DE8 /* SingleLocationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleLocationMapView.swift; path = TravelNote/View/SingleLocationMapView.swift; sourceTree = "<group>"; };
+		3C444FDA1ED9654F001C5DE8 /* TravelNoteMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelNoteMapView.swift; path = TravelNote/View/TravelNoteMapView.swift; sourceTree = "<group>"; };
+		3C444FDB1ED9654F001C5DE8 /* TravelNoteTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelNoteTableView.swift; path = TravelNote/View/TravelNoteTableView.swift; sourceTree = "<group>"; };
+		3C444FEB1ED9655F001C5DE8 /* AddJourneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddJourneyViewController.swift; path = TravelNote/Controller/AddJourneyViewController.swift; sourceTree = "<group>"; };
+		3C444FEC1ED9655F001C5DE8 /* CityPictureSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityPictureSliderViewController.swift; path = TravelNote/Controller/CityPictureSliderViewController.swift; sourceTree = "<group>"; };
+		3C444FED1ED9655F001C5DE8 /* DaySelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DaySelectorViewController.swift; path = TravelNote/Controller/DaySelectorViewController.swift; sourceTree = "<group>"; };
+		3C444FEE1ED9655F001C5DE8 /* JourneyDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyDataViewController.swift; path = TravelNote/Controller/JourneyDataViewController.swift; sourceTree = "<group>"; };
+		3C444FEF1ED9655F001C5DE8 /* JourneyListNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyListNavigationController.swift; path = TravelNote/Controller/JourneyListNavigationController.swift; sourceTree = "<group>"; };
+		3C444FF01ED9655F001C5DE8 /* JourneyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JourneyListViewController.swift; path = TravelNote/Controller/JourneyListViewController.swift; sourceTree = "<group>"; };
+		3C444FF11ED9655F001C5DE8 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchViewController.swift; path = TravelNote/Controller/LaunchViewController.swift; sourceTree = "<group>"; };
+		3C444FF31ED9655F001C5DE8 /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationTableViewController.swift; path = TravelNote/Controller/LocationTableViewController.swift; sourceTree = "<group>"; };
+		3C444FF41ED9655F001C5DE8 /* MainLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainLocationViewController.swift; path = TravelNote/Controller/MainLocationViewController.swift; sourceTree = "<group>"; };
+		3C444FF51ED9655F001C5DE8 /* MutipleLocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutipleLocationsViewController.swift; path = TravelNote/Controller/MutipleLocationsViewController.swift; sourceTree = "<group>"; };
+		3C444FF61ED9655F001C5DE8 /* ReachabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReachabilityViewController.swift; path = TravelNote/Controller/ReachabilityViewController.swift; sourceTree = "<group>"; };
+		3C444FF71ED9655F001C5DE8 /* SingleLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleLocationViewController.swift; path = TravelNote/Controller/SingleLocationViewController.swift; sourceTree = "<group>"; };
+		3C4450061ED96591001C5DE8 /* UIKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit+Extension.swift"; path = "TravelNote/Extension/UIKit+Extension.swift"; sourceTree = "<group>"; };
+		3C75D8C71EEEB1620041437A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = TravelNote/Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		3C75D8C91EEEB17E0041437A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = TravelNote/View/LoginView.swift; sourceTree = "<group>"; };
+		3CDB06DC1EDD2DBF000C0F30 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorViewController.swift; path = TravelNote/Controller/ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		3CF13B311EE96CB200320DC2 /* TravelNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TravelNote.entitlements; path = TravelNote/TravelNote.entitlements; sourceTree = "<group>"; };
+		4911A1D4F733E61C31924550 /* Pods_TravelNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9900CBE497FD891B61E64A /* Pods-TravelNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelNote/Pods-TravelNote.release.xcconfig"; sourceTree = "<group>"; };
+		A0AA79BA1E81181D00AF86A4 /* TravelNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AA79BD1E81181D00AF86A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TravelNote/AppDelegate.swift; sourceTree = "<group>"; };
+		A0AA79C41E81181D00AF86A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TravelNote/Assets.xcassets; sourceTree = "<group>"; };
+		A0AA79C71E81181D00AF86A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0AA79C91E81181D00AF86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TravelNote/Info.plist; sourceTree = "<group>"; };
+		A0EEFCA31E825E6F00ACFCC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "TravelNote/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0AA79B71E81181D00AF86A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EBF540315499EAD3BFFB61 /* Pods_TravelNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4450051ED9657D001C5DE8 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3C4450061ED96591001C5DE8 /* UIKit+Extension.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
+		3C88FEAA1ED676020054B757 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C444FF11ED9655F001C5DE8 /* LaunchViewController.swift */,
+				3C444FEF1ED9655F001C5DE8 /* JourneyListNavigationController.swift */,
+				3C444FF01ED9655F001C5DE8 /* JourneyListViewController.swift */,
+				3C444FEC1ED9655F001C5DE8 /* CityPictureSliderViewController.swift */,
+				3C444FEB1ED9655F001C5DE8 /* AddJourneyViewController.swift */,
+				3C444FEE1ED9655F001C5DE8 /* JourneyDataViewController.swift */,
+				3C444FF41ED9655F001C5DE8 /* MainLocationViewController.swift */,
+				3C444FF31ED9655F001C5DE8 /* LocationTableViewController.swift */,
+				3C444FED1ED9655F001C5DE8 /* DaySelectorViewController.swift */,
+				3C444FF51ED9655F001C5DE8 /* MutipleLocationsViewController.swift */,
+				3C444FF71ED9655F001C5DE8 /* SingleLocationViewController.swift */,
+				3CDB06DC1EDD2DBF000C0F30 /* ActivityIndicatorViewController.swift */,
+				3C444FF61ED9655F001C5DE8 /* ReachabilityViewController.swift */,
+				3C75D8C71EEEB1620041437A /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3C88FEAB1ED676160054B757 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C75D8C91EEEB17E0041437A /* LoginView.swift */,
+				3C444FCD1ED9654F001C5DE8 /* AddJourneyTextField.swift */,
+				3C444FCE1ED9654F001C5DE8 /* CityPictureSliderView.swift */,
+				3C444FCF1ED9654F001C5DE8 /* DaySelectorCollectionViewCell.swift */,
+				3C444FD01ED9654F001C5DE8 /* JourneyNavigationView.swift */,
+				3C444FD21ED9654F001C5DE8 /* JourneyTableViewCell.swift */,
+				3C444FD31ED9654F001C5DE8 /* LocationTableView.swift */,
+				3C444FD41ED9654F001C5DE8 /* LocationTableViewCell.swift */,
+				3C444FD51ED9654F001C5DE8 /* LocationTableViewCell.xib */,
+				3C444FD71ED9654F001C5DE8 /* SearchTableViewCell.swift */,
+				3C444FD81ED9654F001C5DE8 /* SearchTableViewCell.xib */,
+				3C444FD91ED9654F001C5DE8 /* SingleLocationMapView.swift */,
+				3C444FDA1ED9654F001C5DE8 /* TravelNoteMapView.swift */,
+				3C444FD61ED9654F001C5DE8 /* MapViewButton.swift */,
+				3C444FDB1ED9654F001C5DE8 /* TravelNoteTableView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3C88FEAC1ED676250054B757 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C444FAB1ED9653D001C5DE8 /* CellCase.swift */,
+				3C444FAC1ED9653D001C5DE8 /* DateHandler.swift */,
+				3C444FAD1ED9653D001C5DE8 /* ErrorEnum.swift */,
+				3C444FAE1ED9653D001C5DE8 /* FirebaseErrorHandle.swift */,
+				3C444FAF1ED9653D001C5DE8 /* GoogleDirectionManager.swift */,
+				3C444FB01ED9653D001C5DE8 /* Journey.swift */,
+				3C444FB11ED9653D001C5DE8 /* JourneyDataModel.swift */,
+				3C444FB21ED9653D001C5DE8 /* JourneyNetworkHandler.swift */,
+				3C444FB31ED9653D001C5DE8 /* Location.swift */,
+				3C444FB41ED9653D001C5DE8 /* LocationDataModel.swift */,
+				3C444FB51ED9653D001C5DE8 /* LocationNetworkHandler.swift */,
+				3C444FB61ED9653D001C5DE8 /* Reachability.swift */,
+				3C444FB71ED9653D001C5DE8 /* StringEnum.swift */,
+				3C444FB81ED9653D001C5DE8 /* TravelNoteErrorHandler.swift */,
+				3C444FB91ED9653D001C5DE8 /* TravelNoteNetworkHandler.swift */,
+				3C444FBA1ED9653D001C5DE8 /* User.swift */,
+				3C444FBB1ED9653D001C5DE8 /* UserLocationManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9EDD8AF761C6D09B05570BA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4911A1D4F733E61C31924550 /* Pods_TravelNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0AA79B11E81181D00AF86A4 = {
+			isa = PBXGroup;
+			children = (
+				18EE23CC2266B06400D8CEEF /* ProjectConfuse.h */,
+				1891079322649FDE00FC6650 /* Pods-TravelNote-acknowledgements.markdown */,
+				1891079122649D7800FC6650 /* AcknowViewController.swift */,
+				1891078B22649B0D00FC6650 /* MoreTableViewController.swift */,
+				3CF13B311EE96CB200320DC2 /* TravelNote.entitlements */,
+				A0EEFCA31E825E6F00ACFCC4 /* GoogleService-Info.plist */,
+				A0AA79C91E81181D00AF86A4 /* Info.plist */,
+				A0AA79C41E81181D00AF86A4 /* Assets.xcassets */,
+				18AB7002225EF47800977833 /* SetupJpush.swift */,
+				1891079722656E7900FC6650 /* AboutViewController.swift */,
+				A0AA79C61E81181D00AF86A4 /* LaunchScreen.storyboard */,
+				A0AA79BD1E81181D00AF86A4 /* AppDelegate.swift */,
+				18AB700B225F343D00977833 /* TravelNote-Bridging-Header.h */,
+				3C4450051ED9657D001C5DE8 /* Extention */,
+				3C88FEAC1ED676250054B757 /* Model */,
+				3C88FEAB1ED676160054B757 /* View */,
+				3C88FEAA1ED676020054B757 /* Controller */,
+				A0AA79BB1E81181D00AF86A4 /* Products */,
+				A8C83AEB271317052356D365 /* Pods */,
+				9EDD8AF761C6D09B05570BA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0AA79BB1E81181D00AF86A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA79BA1E81181D00AF86A4 /* TravelNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C83AEB271317052356D365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0474EFF98B99D1147A0D759C /* Pods-TravelNote.debug.xcconfig */,
+				5F9900CBE497FD891B61E64A /* Pods-TravelNote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0AA79B91E81181D00AF86A4 /* TravelNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AA79CC1E81181D00AF86A4 /* Build configuration list for PBXNativeTarget "TravelNote" */;
+			buildPhases = (
+				CA6342A65D2EE6C95542B59E /* [CP] Check Pods Manifest.lock */,
+				A0AA79B61E81181D00AF86A4 /* Sources */,
+				A0AA79B71E81181D00AF86A4 /* Frameworks */,
+				A0AA79B81E81181D00AF86A4 /* Resources */,
+				A0AA79CF1E8118C100AF86A4 /* SwiftLint */,
+				B50E81DA3BF548D245FAA234 /* [CP] Embed Pods Frameworks */,
+				9BEC8CC756E5A61498B6EDB5 /* [CP] Copy Pods Resources */,
+				3CF0A0371EAF0AAA006D1205 /* Fabric */,
+				18EE23CD2266B09A00D8CEEF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelNote;
+			productName = TravelNote;
+			productReference = A0AA79BA1E81181D00AF86A4 /* TravelNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0AA79B21E81181D00AF86A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "伍智瑋";
+				TargetAttributes = {
+					A0AA79B91E81181D00AF86A4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5FCW2VJW37;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A0AA79B51E81181D00AF86A4 /* Build configuration list for PBXProject "TravelNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A0AA79B11E81181D00AF86A4;
+			productRefGroup = A0AA79BB1E81181D00AF86A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0AA79B91E81181D00AF86A4 /* TravelNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0AA79B81E81181D00AF86A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA79C81E81181D00AF86A4 /* LaunchScreen.storyboard in Resources */,
+				A0EEFCA41E825E6F00ACFCC4 /* GoogleService-Info.plist in Resources */,
+				3C444FE41ED9654F001C5DE8 /* LocationTableViewCell.xib in Resources */,
+				1891079422649FDF00FC6650 /* Pods-TravelNote-acknowledgements.markdown in Resources */,
+				A0AA79C51E81181D00AF86A4 /* Assets.xcassets in Resources */,
+				3C444FE71ED9654F001C5DE8 /* SearchTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EE23CD2266B09A00D8CEEF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash $PROJECT_DIR/confuse.sh\n";
+		};
+		3CF0A0371EAF0AAA006D1205 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" e00984465156637168dc7181d2e28256e4e86bc5 9b5fa488e09b6d4df45b23a9145fa530a45f175447e35863409818cd4f138be8\n";
+		};
+		9BEC8CC756E5A61498B6EDB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelNote/Pods-TravelNote-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelNote/Pods-TravelNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AA79CF1E8118C100AF86A4 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		B50E81DA3BF548D245FAA234 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelNote/Pods-TravelNote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelNote/Pods-TravelNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6342A65D2EE6C95542B59E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0AA79B61E81181D00AF86A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C444FC51ED9653D001C5DE8 /* LocationDataModel.swift in Sources */,
+				3C444FDD1ED9654F001C5DE8 /* CityPictureSliderView.swift in Sources */,
+				3C444FC81ED9653D001C5DE8 /* StringEnum.swift in Sources */,
+				3C444FE11ED9654F001C5DE8 /* JourneyTableViewCell.swift in Sources */,
+				3C75D8CA1EEEB17E0041437A /* LoginView.swift in Sources */,
+				3C444FC21ED9653D001C5DE8 /* JourneyDataModel.swift in Sources */,
+				3C444FC11ED9653D001C5DE8 /* Journey.swift in Sources */,
+				3C444FEA1ED9654F001C5DE8 /* TravelNoteTableView.swift in Sources */,
+				3C444FFB1ED9655F001C5DE8 /* JourneyDataViewController.swift in Sources */,
+				3C444FE81ED9654F001C5DE8 /* SingleLocationMapView.swift in Sources */,
+				3C4450011ED9655F001C5DE8 /* MainLocationViewController.swift in Sources */,
+				3C4450021ED9655F001C5DE8 /* MutipleLocationsViewController.swift in Sources */,
+				3C444FDF1ED9654F001C5DE8 /* JourneyNavigationView.swift in Sources */,
+				3C444FC91ED9653D001C5DE8 /* TravelNoteErrorHandler.swift in Sources */,
+				3C444FCA1ED9653D001C5DE8 /* TravelNoteNetworkHandler.swift in Sources */,
+				3C444FFE1ED9655F001C5DE8 /* LaunchViewController.swift in Sources */,
+				3C444FFD1ED9655F001C5DE8 /* JourneyListViewController.swift in Sources */,
+				3C4450071ED96591001C5DE8 /* UIKit+Extension.swift in Sources */,
+				1891079822656E7900FC6650 /* AboutViewController.swift in Sources */,
+				3C444FE91ED9654F001C5DE8 /* TravelNoteMapView.swift in Sources */,
+				3C75D8C81EEEB1620041437A /* LoginViewController.swift in Sources */,
+				18AB7003225EF47800977833 /* SetupJpush.swift in Sources */,
+				3C444FF81ED9655F001C5DE8 /* AddJourneyViewController.swift in Sources */,
+				3C444FC41ED9653D001C5DE8 /* Location.swift in Sources */,
+				3C444FE21ED9654F001C5DE8 /* LocationTableView.swift in Sources */,
+				3C444FDC1ED9654F001C5DE8 /* AddJourneyTextField.swift in Sources */,
+				1891079222649D7800FC6650 /* AcknowViewController.swift in Sources */,
+				3C444FF91ED9655F001C5DE8 /* CityPictureSliderViewController.swift in Sources */,
+				3C444FFA1ED9655F001C5DE8 /* DaySelectorViewController.swift in Sources */,
+				3C444FFC1ED9655F001C5DE8 /* JourneyListNavigationController.swift in Sources */,
+				3C444FE61ED9654F001C5DE8 /* SearchTableViewCell.swift in Sources */,
+				3C444FCB1ED9653D001C5DE8 /* User.swift in Sources */,
+				3C444FC31ED9653D001C5DE8 /* JourneyNetworkHandler.swift in Sources */,
+				3C4450031ED9655F001C5DE8 /* ReachabilityViewController.swift in Sources */,
+				3C444FBF1ED9653D001C5DE8 /* FirebaseErrorHandle.swift in Sources */,
+				3C4450041ED9655F001C5DE8 /* SingleLocationViewController.swift in Sources */,
+				1891078D22649B0D00FC6650 /* MoreTableViewController.swift in Sources */,
+				3C4450001ED9655F001C5DE8 /* LocationTableViewController.swift in Sources */,
+				A0AA79BE1E81181D00AF86A4 /* AppDelegate.swift in Sources */,
+				3C444FC01ED9653D001C5DE8 /* GoogleDirectionManager.swift in Sources */,
+				3C444FE31ED9654F001C5DE8 /* LocationTableViewCell.swift in Sources */,
+				3C444FC61ED9653D001C5DE8 /* LocationNetworkHandler.swift in Sources */,
+				3C444FDE1ED9654F001C5DE8 /* DaySelectorCollectionViewCell.swift in Sources */,
+				3CDB06DD1EDD2DBF000C0F30 /* ActivityIndicatorViewController.swift in Sources */,
+				3C444FBE1ED9653D001C5DE8 /* ErrorEnum.swift in Sources */,
+				3C444FE51ED9654F001C5DE8 /* MapViewButton.swift in Sources */,
+				3C444FBC1ED9653D001C5DE8 /* CellCase.swift in Sources */,
+				3C444FBD1ED9653D001C5DE8 /* DateHandler.swift in Sources */,
+				3C444FC71ED9653D001C5DE8 /* Reachability.swift in Sources */,
+				3C444FCC1ED9653D001C5DE8 /* UserLocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0AA79C61E81181D00AF86A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0AA79C71E81181D00AF86A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = TravelNote;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0AA79CA1E81181D00AF86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0AA79CB1E81181D00AF86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0AA79CD1E81181D00AF86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0474EFF98B99D1147A0D759C /* Pods-TravelNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TravelNote/TravelNote.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5FCW2VJW37;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				INFOPLIST_FILE = TravelNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiger.journelTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravelNote-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0AA79CE1E81181D00AF86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9900CBE497FD891B61E64A /* Pods-TravelNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TravelNote/TravelNote.entitlements;
+				DEVELOPMENT_TEAM = 5FCW2VJW37;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				INFOPLIST_FILE = TravelNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiger.journelTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravelNote-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0AA79B51E81181D00AF86A4 /* Build configuration list for PBXProject "TravelNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA79CA1E81181D00AF86A4 /* Debug */,
+				A0AA79CB1E81181D00AF86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AA79CC1E81181D00AF86A4 /* Build configuration list for PBXNativeTarget "TravelNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA79CD1E81181D00AF86A4 /* Debug */,
+				A0AA79CE1E81181D00AF86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0AA79B21E81181D00AF86A4 /* Project object */;
+}
